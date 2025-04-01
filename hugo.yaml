@@ -2,7 +2,11 @@ enableRobotsTXT: true
 languageCode: en
 theme: gokarna
 title: Kevin KIN-FOO
-description: Portfolio
+
+params:
+  description: Portfolio
+  avatarSize: 'size-l'
+  avatarURL: 'images/avatar.webp'
 
 menu:
   main:
