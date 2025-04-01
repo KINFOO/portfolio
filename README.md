@@ -2,9 +2,14 @@
 
 My portfolio really
 
-# Template to try
+## Develop
 
-- [Gokarna](https://themes.gohugo.io/themes/gokarna/)
-- [Typo](https://themes.gohugo.io/themes/typo/)
-- [Paige](https://themes.gohugo.io/themes/paige/)
-- [TailBliss](https://themes.gohugo.io/themes/tailbliss/)
+```sh
+hugo serve
+```
+
+## Build
+
+```sh
+hugo build --minify
+```
