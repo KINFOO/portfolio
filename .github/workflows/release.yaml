@@ -1,0 +1,35 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-tags: true
+          fetch-depth: 0
+
+      - name: generate release number
+        run: |
+          export RELEASE_DATE=$( date +"%Y%m%d" )
+          export RELEASE_COUNT=$( git tag | grep ${RELEASE_DATE} | wc -l )
+          export FUTURE_RELEASE_COUNT=$(( $RELEASE_COUNT + 1 ))
+          echo "RELEASE_TAG=v${RELEASE_DATE}-${FUTURE_RELEASE_COUNT}" >> $GITHUB_ENV
+
+      - name: create tag
+        uses: actions/github-script@v7
+        env:
+          RELEASE_TAG: ${{ env.RELEASE_TAG }}
+        with:
+          script: |
+            github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: `refs/tags/${process.env.RELEASE_TAG}`,
+              sha: context.sha
+            })
