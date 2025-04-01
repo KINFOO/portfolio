@@ -19,12 +19,16 @@ menu:
       url: /posts/
       weight: 2
 
+    - name: Tags
+      url: /tags/
+      weight: 3
+
     - identifier: github
       url: https://github.com/KINFOO
-      weight: 3
+      weight: 4
       pre: <span data-feather="github"></span>
 
     - identifier: linkedin
       url: https://linkedin.com/in/KIN-FOO
-      weight: 4
+      weight: 5
       pre: <span data-feather="linkedin"></span>
