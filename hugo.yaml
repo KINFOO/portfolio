@@ -5,8 +5,8 @@ title: Kevin KIN-FOO
 
 params:
   description: Portfolio
-  avatarSize: 'size-l'
-  avatarURL: 'images/avatar.webp'
+  avatarSize: size-l
+  avatarURL: /images/avatar.webp
 
 menu:
   main:
