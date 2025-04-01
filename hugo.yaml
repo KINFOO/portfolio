@@ -19,6 +19,10 @@ menu:
       url: /projects/
       weight: 2
 
+    - name: Resume
+      url: /resumes/
+      weight: 3
+
     - name: Tags
       url: /tags/
       weight: 4
