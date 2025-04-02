@@ -34,4 +34,9 @@ connection to server at "127.0.0.1", port 5432 failed: Connection refused
 
 Surprise!
 
-Tests look wired to database out of the box
+Tests look wired to database out of the box.
+
+Reading documenation[^1], I get that it is in the spirit of _Rails testing_.
+You're always end up finding yourself testing someting with some model.
+
+[^1]: [Rails' test documentation](https://guides.rubyonrails.org/testing.html)
