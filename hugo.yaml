@@ -20,7 +20,7 @@ menu:
       weight: 2
 
     - name: Resume
-      url: /resumes/
+      url: /#resumes
       weight: 3
 
     - name: Tags
