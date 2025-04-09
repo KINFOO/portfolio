@@ -5,7 +5,7 @@ Development_, _Clean Code_, _Continuous Integration_ and more.
 
 I can also write on other topics.
 
-### <a name="#resumes"></a> Resumes
+### Resumes
 
 You might have read how I _work_ and might want to reach to me, in a
 _professional_ way. Here are my resumes to do so:
