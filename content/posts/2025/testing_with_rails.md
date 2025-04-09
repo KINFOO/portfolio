@@ -12,6 +12,7 @@ tags:
   - ruby
   - test
   - unit test
+  - postgresql
 ---
 
 Lately, I was refactoring authentication on a Rails application, a big
@@ -40,3 +41,5 @@ Reading documentation[^1], I get that it is in the spirit of _Rails testing_.
 You're always end up finding yourself testing something with some model.
 
 [^1]: [Rails' test documentation](https://guides.rubyonrails.org/testing.html)
+[^2]: [Integration test](https://guides.rubyonrails.org/testing.html#implementing-an-integration-test)
+[^3]: [Tests helpers](https://guides.rubyonrails.org/testing.html#test-helpers)
