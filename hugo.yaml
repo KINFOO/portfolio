@@ -23,6 +23,10 @@ menu:
       url: /#resumes
       weight: 3
 
+    - name: Skills
+      url: /#skills
+      weight: 4
+
     - name: Tags
       url: /tags/
       weight: 4
