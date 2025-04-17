@@ -3,7 +3,7 @@ type: post
 title: Rails test crash course
 description: When tests do not cooperate
 date: 2025-04-16T10:21:13+02:00
-lastmod: 2025-04-16
+lastmod: 2025-04-17
 tags:
   - rails
   - ruby
@@ -19,7 +19,7 @@ Running `rails test` looks like:
 
 ![rails test crash](/images/2025/rails_test_crash.png)
 
-```bash
+```
 /Users/kevin/.rbenv/versions/3.4.2/lib/ruby/gems/3.4.0/gems/pg-1.5.9/lib/pg/connection.rb:703: [BUG] Segmentation fault at 0x0000000120390b28
 ruby 3.4.2 (2025-02-15 revision d2930f8e7a) +PRISM [arm64-darwin24]
 
