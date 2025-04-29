@@ -12,10 +12,10 @@ tags:
 draft: true
 ---
 
-Using Rails builtin credentials, I nice and nasty surprises.
-The guide is really slick, but is you want to enter use details: what a pain.
-I mean to use value from credentials you go:
-Let's say you have credentials looking like this:
+Using Rails builtin credentials, the guide[^1] is really slick. **But** when you
+enter use details: surprise!
+
+Here is an example.Let's say you have credentials looking like:
 
 ```yaml
 provider:
@@ -29,10 +29,8 @@ You would access them like so:
 secret = Rails.application.credentials.dig(:provider, :api_key)
 ```
 
-I later discovered that
-[dig](https://ruby-doc.org/3.4.1/Array.html#method-i-dig) is part of Ruby and
-is not specific to Rails. But even after reading documentation, I am still not
-sharp enough on the topic. Documentation provides examples:
+Even though `dig`[^2] is part of Ruby and is not specific to Rails, I am still
+feeling not sharp enough on the topic. Documentation provides examples:
 
 ```yaml
 a = [:foo, [:bar, :baz, [:bat, :bam]]]
@@ -57,7 +55,7 @@ provider
 Notice the missing `:`after `provider`
 Now if you try to show credentials, it is fireworks
 
-````sh
+```bash
 $ rails credentials:show
 /Users/kevin/.rbenv/versions/3.4.2/lib/ruby/gems/3.4.0/gems/activesupport-8.0.2/lib/active_support/encrypted_configuration.rb:123:in 'ActiveSupport::EncryptedConfiguration#deserialize': Invalid YAML in '/Users/kevin/Documents/finope/forgetheweb_website/config/credentials/development.yml.enc'. (ActiveSupport::EncryptedConfiguration::InvalidContentError)
 
@@ -66,6 +64,9 @@ $ rails credentials:show
       from /Users/kevin/.rbenv/versions/3.4.2/lib/ruby/gems/3.4.0/gems/activesupport-8.0.2/lib/active_support/encrypted_configuration.rb:113:in 'ActiveSupport::EncryptedConfiguration#options'
       from /Users/kevin/.rbenv/versions/3.4.2/lib/ruby/gems/3.4.0/gems/activesupport-8.0.2/lib/active_support/delegation.rb:186:in 'ActiveSupport::EncryptedConfiguration#method_missing'
       from /Users/kevin/Documents/finope/forgetheweb_website/config/environments/development.rb:84:in 'block in <main>'
-      ```
+```
+
 You can browse the Internet, _no recovery possible_. Reset your credentials to a _previous safe state_ and re-edit.
-````
+
+[^1]: [Custom creedentials](https://guides.rubyonrails.org/security.html#environmental-security)
+[^2]: [dig](https://ruby-doc.org/3.4.1/Array.html#method-i-dig)
