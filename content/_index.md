@@ -19,12 +19,12 @@ _professional_ way. Here are my resumes to do so:
 
 ### Skills
 
-| Domain   | Skill      | Framework      | Experience | Certification                                                                              |
-| -------- | ---------- | -------------- | ---------- | ------------------------------------------------------------------------------------------ |
-| Backend  | Typescript | NestJS         | ⭐⭐⭐⭐   | [Clean Architecture with NestJS](https://kinfoo.fr/certifications/2024_nestjs.pdf)         |
-| Backend  | Ruby       | Rails          | ⭐⭐⭐     |                                                                                            |
-| Frontend | Typescript | NextJS         | ⭐⭐⭐⭐   | [Clean Architecture with React & NextJS](https://kinfoo.fr/certifications/2024_nextjs.pdf) |
-| App      | Java       | Eclipse        | ⭐⭐⭐     |                                                                                            |
-| DevOps   | Git        | GitHub Actions | ⭐⭐⭐⭐   |                                                                                            |
-| DevOps   | Docker     |                | ⭐⭐⭐⭐   | [Docker & Kubernetes](https://kinfoo.fr/certifications/2022_kube.pdf)                      |
-| DevOps   | Python     | Boto / Lambda  | ⭐⭐⭐     |                                                                                            |
+| Domain   | Skill               | Framework      | Experience | Certification                                                                              |
+| -------- | ------------------- | -------------- | ---------- | ------------------------------------------------------------------------------------------ |
+| Backend  | Typescript          | NestJS         | ⭐⭐⭐⭐   | [Clean Architecture with NestJS](https://kinfoo.fr/certifications/2024_nestjs.pdf)         |
+| Frontend | Typescript          | NextJS         | ⭐⭐⭐⭐   | [Clean Architecture with React & NextJS](https://kinfoo.fr/certifications/2024_nextjs.pdf) |
+| DevOps   | Docker & Kubernetes |                | ⭐⭐⭐⭐   | [Docker & Kubernetes](https://kinfoo.fr/certifications/2022_kube.pdf)                      |
+| DevOps   | Git                 | GitHub Actions | ⭐⭐⭐⭐   |                                                                                            |
+| DevOps   | Python              | Boto / Lambda  | ⭐⭐⭐     |                                                                                            |
+| Backend  | Ruby                | Rails          | ⭐⭐⭐     |                                                                                            |
+| App      | Java                | Eclipse        | ⭐⭐⭐     |                                                                                            |
