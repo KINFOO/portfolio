@@ -28,3 +28,13 @@ _professional_ way. Here are my resumes to do so:
 | DevOps   | Python              | Boto / Lambda  | ⭐⭐⭐     |                                                                                            |
 | Backend  | Ruby                | Rails          | ⭐⭐⭐     |                                                                                            |
 | App      | Java                | Eclipse        | ⭐⭐⭐     |                                                                                            |
+
+### GitHub stats
+
+<div align="center">
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=KINFOO&no-frame=true&column=5&row=2)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KINFOO&show_icons=true&hide_border=true&layout=compact)
+
+</div>
